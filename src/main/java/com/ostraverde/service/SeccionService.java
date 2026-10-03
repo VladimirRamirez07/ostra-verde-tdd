@@ -29,4 +29,8 @@ public class SeccionService {
         }
         return disponibles;
     }
+
+    public List<Seccion> consultarTodas() {
+        return secciones;
+    }
 }
